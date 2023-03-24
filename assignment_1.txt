@@ -1,0 +1,11 @@
+Write a JavaScript program to print all the numbers divisble by 3 present in an array
+
+solution
+
+let arr = [3, 7, 8, 9, 12, 16, 21, 24];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 3 === 0) {
+    console.log(arr[i]);
+  }
+}
